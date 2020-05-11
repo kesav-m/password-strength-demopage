@@ -10,7 +10,7 @@ function App() {
     <div className="card">
      <form>
        <h4>Password</h4>
-       <StrengthCheck changecallback={(val)=>onchangeHandler(val)} variant='linear' inputprops={{ name: 'password', placeholder: 'linear' }}/>
+       <StrengthCheck changecallback={(val)=>onchangeHandler(val)} variant='line' inputprops={{ name: 'password', placeholder: 'line' }}/>
        <h4>Password</h4>
        <StrengthCheck changecallback={ (val)=>onchangeHandler(val) } variant='linear-stripped' inputprops={{ name: 'password', placeholder: 'linear-stripped' }} />
        <h4>Password</h4>
@@ -20,7 +20,7 @@ function App() {
        <h4>Password</h4>
        <StrengthCheck changecallback={(val)=>onchangeHandler(val)} variant='circle' inputprops={{ name: 'password', placeholder: 'circle' }} />
        <h4>Password</h4>
-       <StrengthCheck changecallback={(val)=>onchangeHandler(val)} variant='line' inputprops={{ name: 'password', placeholder: 'line' }} />    
+       <StrengthCheck changecallback={(val)=>onchangeHandler(val)} variant='linear' inputprops={{ name: 'password', placeholder: 'linear' }} />    
      </form>
     </div>
   );
